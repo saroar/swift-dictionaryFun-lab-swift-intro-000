@@ -35,7 +35,7 @@
 		5BA4178B1D9066DA005C66A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BA4178D1D9066DA005C66A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BA417921D9066DA005C66A9 /* IcecreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IcecreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BA417961D9066DA005C66A9 /* IcecreamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IcecreamTests.swift; sourceTree = "<group>"; };
+		5BA417961D9066DA005C66A9 /* IcecreamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IcecreamTests.swift; path = IcecreamTests/IcecreamTests.swift; sourceTree = "<group>"; };
 		5BA417981D9066DA005C66A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BA417A11D9067A2005C66A9 /* Icecream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Icecream.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,6 +63,7 @@
 			children = (
 				5BA417801D9066DA005C66A9 /* Icecream */,
 				5BA417951D9066DA005C66A9 /* IcecreamTests */,
+				5BA417961D9066DA005C66A9 /* IcecreamTests.swift */,
 				5BA4177F1D9066DA005C66A9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,7 +90,6 @@
 		5BA417951D9066DA005C66A9 /* IcecreamTests */ = {
 			isa = PBXGroup;
 			children = (
-				5BA417961D9066DA005C66A9 /* IcecreamTests.swift */,
 				5BA417981D9066DA005C66A9 /* Info.plist */,
 			);
 			path = IcecreamTests;

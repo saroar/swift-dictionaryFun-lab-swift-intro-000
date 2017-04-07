@@ -31,7 +31,7 @@ class IcecreamTests: XCTestCase {
         super.tearDown()
     }
     
-    
+        
     // 1.
     func testStoredProperty() {
         XCTAssertEqual(testIcecream.favoriteFlavorsOfIceCream, namesAndFlavors, "Ice-cream dictionary is not created with the right key-value pairs.")
